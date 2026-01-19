@@ -1,0 +1,45 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'files/**'
+      - 'build_release.py'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Clone Target Repository
+        env:
+          TARGET_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+        run: |
+          git clone --depth 1 "https://x-access-token:$TARGET_TOKEN@github.com/racpast/snib.racpast.com.git" target-repo
+
+      - name: Execute Build Script
+        run: python build_release.py
+
+      - name: Push Changes
+        run: |
+          cd target-repo
+          git config user.name "racpast"
+          git config user.email "racpast@gmail.com"
+          git add -A
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Auto-deploy: Sync files and update manifest [Skip CI]"
+            git push origin main
+          else
+            echo "No changes detected."
+          fi
