@@ -6,6 +6,7 @@ on:
     paths:
       - 'files/**'
       - 'build_release.py'
+   workflow_dispatch:
 
 jobs:
   deploy:
