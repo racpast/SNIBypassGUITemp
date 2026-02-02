@@ -1,0 +1,4 @@
+127.0.0.1 pinterest.com
+127.0.0.1 *.pinterest.com
+127.0.0.1 pinimg.com
+127.0.0.1 *.pinimg.com

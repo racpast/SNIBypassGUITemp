@@ -1,0 +1,5 @@
+127.0.0.1 quora.com
+127.0.0.1 *.quora.com
+127.0.0.1 *.www.quora.com
+127.0.0.1 *.tch.quora.com
+127.0.0.1 *.www.tch.quora.com

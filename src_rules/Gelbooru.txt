@@ -1,0 +1,4 @@
+127.0.0.1 gelbooru.com
+127.0.0.1 *.gelbooru.com
+127.0.0.1 rmzsglng.com
+127.0.0.1 *.rmzsglng.com

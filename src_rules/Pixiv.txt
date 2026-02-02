@@ -1,0 +1,13 @@
+NX analytics.twitter.com
+NX www.googletagmanager.com
+NX t.co
+NX pixon.ads-pixiv.net
+NX pagead2.googlesyndication.com
+NX fundingchoicesmessages.google.com
+127.0.0.1 pixiv.net
+127.0.0.1 *.pixiv.net
+127.0.0.1 *.*.pixiv.net
+127.0.0.1 pximg.net
+127.0.0.1 *.pximg.net
+127.0.0.1 pixiv.org
+127.0.0.1 *.pixiv.org

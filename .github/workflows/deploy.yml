@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'files/**'
-      - 'build_release.py'
+      - 'build.py'
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
           git clone --depth 1 "https://x-access-token:$TARGET_TOKEN@github.com/racpast/snib.racpast.com.git" target-repo
 
       - name: Execute Build Script
-        run: python build_release.py
+        run: python build.py
 
       - name: Push Changes
         run: |

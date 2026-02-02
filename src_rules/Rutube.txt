@@ -1,0 +1,2 @@
+127.0.0.1 rutube.ru
+127.0.0.1 *.rutube.ru

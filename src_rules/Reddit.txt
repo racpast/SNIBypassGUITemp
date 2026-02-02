@@ -1,0 +1,9 @@
+127.0.0.1 reddit.com
+127.0.0.1 *.reddit.com
+127.0.0.1 redd.it
+127.0.0.1 *.redd.it
+127.0.0.1 redditmedia.com
+127.0.0.1 *.redditmedia.com
+127.0.0.1 redditstatic.com
+127.0.0.1 *.redditstatic.com
+104.18.36.123 >redgifs.com

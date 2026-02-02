@@ -1,0 +1,4 @@
+127.0.0.1 z-lib.help
+127.0.0.1 *.z-lib.help
+127.0.0.1 z-library.sk
+127.0.0.1 *.z-library.sk

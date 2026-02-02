@@ -1,0 +1,2 @@
+127.0.0.1 amazon.co.jp
+127.0.0.1 *.amazon.co.jp

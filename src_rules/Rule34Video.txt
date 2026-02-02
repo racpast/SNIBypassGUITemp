@@ -1,0 +1,2 @@
+190.115.31.243 rule34video.com
+190.115.31.243 *.rule34video.com

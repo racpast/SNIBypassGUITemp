@@ -1,0 +1,2 @@
+127.0.0.1 huggingface.co
+127.0.0.1 *.huggingface.co

@@ -1,0 +1,9 @@
+127.0.0.1 bbc.com
+127.0.0.1 *.bbc.com
+127.0.0.1 *.*.bbc.com
+127.0.0.1 bbc.co.uk
+127.0.0.1 *.bbc.co.uk
+127.0.0.1 *.*.bbc.co.uk
+127.0.0.1 bbci.co.uk
+127.0.0.1 *.bbci.co.uk
+127.0.0.1 *.*.bbci.co.uk

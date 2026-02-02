@@ -1,0 +1,2 @@
+127.0.0.1 hub.docker.com
+127.0.0.1 *.s3.us-east-1.amazonaws.com

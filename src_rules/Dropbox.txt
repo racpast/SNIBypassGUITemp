@@ -1,0 +1,4 @@
+127.0.0.1 dropbox.com
+127.0.0.1 *.dropbox.com
+127.0.0.1 *.dropboxusercontent.com
+127.0.0.1 *.*.dropboxusercontent.com

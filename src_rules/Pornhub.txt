@@ -1,0 +1,4 @@
+127.0.0.1 pornhub.com
+127.0.0.1 *.pornhub.com
+127.0.0.1 jsdelivr.net
+127.0.0.1 cdn.jsdelivr.net

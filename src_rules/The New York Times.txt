@@ -1,0 +1,5 @@
+127.0.0.1 nytimes.com
+127.0.0.1 *.nytimes.com
+127.0.0.1 *.*.nytimes.com
+127.0.0.1 nyt.com
+127.0.0.1 *.nyt.com

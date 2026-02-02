@@ -1,0 +1,9 @@
+127.0.0.1 instagram.com
+127.0.0.1 *.instagram.com
+127.0.0.1 instagr.am
+127.0.0.1 *.instagr.am
+127.0.0.1 ig.me
+127.0.0.1 *.ig.me
+127.0.0.1 static.cdninstagram.com
+127.0.0.1 *.cdninstagram.com
+127.0.0.1 *.*.fna.fbcdn.net

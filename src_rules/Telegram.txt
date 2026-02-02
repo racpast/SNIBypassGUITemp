@@ -1,0 +1,14 @@
+127.0.0.1 t.me
+127.0.0.1 *.t.me
+127.0.0.1 tg.dev
+127.0.0.1 *.tg.dev
+127.0.0.1 telesco.pe
+127.0.0.1 *.telesco.pe
+127.0.0.1 telegram.me
+127.0.0.1 *.telegram.me
+127.0.0.1 cdn-telegram.org
+127.0.0.1 *.cdn-telegram.org
+127.0.0.1 telegram.org
+127.0.0.1 *.telegram.org
+127.0.0.1 web.telegram.org
+127.0.0.1 *.web.telegram.org
