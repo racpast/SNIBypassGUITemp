@@ -88,7 +88,7 @@ def compile_rules():
         final_item["Hosts"] = encoded_hosts
         compiled_list.append(final_item)
 
-    data_dir = os.path.join(SOURCE_DIR, 'data')
+    data_dir = os.path.join(SOURCE_DIR, 'Data')
     os.makedirs(data_dir, exist_ok=True)
 
     target_path = os.path.join(data_dir, FINAL_RULES_NAME)
