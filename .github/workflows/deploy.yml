@@ -39,7 +39,7 @@ jobs:
           git config user.email "racpast@gmail.com"
           git add -A
           if ! git diff-index --quiet HEAD; then
-            git commit -m "Auto-deploy: Sync files and update manifest [Skip CI]"
+            git commit -m "Auto-deploy: Sync files and update manifest"
             git push origin main
           else
             echo "No changes detected."
