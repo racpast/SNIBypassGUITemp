@@ -86,6 +86,7 @@ def compile_rules():
 
         final_item = item.copy()
         final_item["Hosts"] = encoded_hosts
+        final_item["Status"] = item.get("Status", 0)
         compiled_list.append(final_item)
 
     data_dir = os.path.join(SOURCE_DIR, 'Data')
